@@ -31,8 +31,8 @@ from torch.optim import Optimizer
 from torch.utils.data import DataLoader
 import csv
 import torch.nn.functional as F
-from utils.ddp import ddp_setup
-from utils.data_load import load_train_objs, load_val_objs
+from .utils.ddp import ddp_setup
+from .utils.data_load import load_train_objs, load_val_objs
 
 logger = logging.getLogger(__name__)
 
